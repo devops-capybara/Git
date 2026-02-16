@@ -23,10 +23,8 @@ if [ -d ~/.bashrc.d ]; then
     done
 fi
 unset rc
-
-################################
-##############KJ###############
-#############################
+##tutaj####
+#zmiana#
 parse_git_branch() {
      git branch 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/(\1)/'
 }
