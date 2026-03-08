@@ -1,0 +1,7 @@
+Working Area - katalog roboczy projektu, w ktorym aktualnie pracujemy z najaktualniejsza w danej chwili wersja plikow repozytorium.
+
+Staging Area - miejsce, w ktorym przechowywane sa zmiany, ktore trafia do commita. Alternatywna nazwa tej przestrzeni to INDEX
+
+Head - referencje do ostatniego commita w danej galezi (tip)
+
+HEAD (alias @) - commit bedacy zrodlem aktualnej wersji Working Area, akualny commit w Working Directory

@@ -1,0 +1,25 @@
+git log -n4 - pokazuje ostatnie n commitow
+
+git log --oneline - pokazuje historie projektu w przejrzysty, jednowierszowy sposob
+
+git log --since='{15 minutes ago}' - pokazuje historie projektu w ciagu ostatnich 15 min
+
+git tag - wypisuje wszystkie tagi 
+
+git tag <nazwa> <commit> - nadaje tag zwykly, tzw. lightweight
+
+git tag <nazwa> <commit> -a -m <message> - nadaje tag z informacja dodatkowa tzw. annotated
+
+git tag -d <nazwa> - kasuje tag o wybranej nazwie
+
+git branch - wypisuje wszytkie galezie (gwiazdaka - aktualna galaz na ktorej jetesmy)
+
+git branch -d <nazwa_galezi> - kasuje wybrana galaz
+
+git branch -D <nazwa_galezi> - kasuje wybrana galaz w trybie force
+
+git checkout <galaz>/<commit>/<ref> - umieszcza stan wybranego commita w Working Directory
+
+git checkout - (minus na koncu) - wraca do poprzedniej galezi (a tak naprawde przywraca do Working Directory poprzedni HEAD)
+
+git branch -m <nazwa> - zmienia nazwe bierzacej galezi 

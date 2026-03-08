@@ -1,0 +1,23 @@
+git init - inicjuje nowe repozytorium w biezacym katalogu. Inicjatywa tworzy ukryty katalog .git
+
+git status - weryfikacja statusu repozytorium 
+
+git add . - dodaje Staging Area wszystkie zmiany w Working Area
+
+git add <nazwa_pliku> - dodaje do Staging Area wybrany plik z Working Area
+
+git commit -m '<commit message>' - tworzy commit ze zmian, znajdujacych sie w Staging Area o podanym commit message
+
+git commit - tworzy commit ze zmian, znajdujacych sie w Staging Area. W celu podania commit message otworzy sie edytor git
+
+git log - pokazuje historie (commity) projektu 
+
+gitk - graficzna forma prezentacji historii projektu
+
+git diff <nazwa pliku> - pokazuje biezace zmiany w stosunku do ostatnigo commita 
+
+git checkout -b <nazwa galezi> - tworzy nowa galaz o podanej nazwie i automatycznie przelacza sie na nia
+
+git checkout <nazwa-galezi> - przelacza sie na galaz o podanej nazwie 
+
+git merge --no-ff -m <merge_commit_message> <nazwa_galezi_zrodlowej> - merguje zmiany z galezi zrodlowej do galezi, na obecnie wycheckoutowanej galezi w trybie no-fastforward
